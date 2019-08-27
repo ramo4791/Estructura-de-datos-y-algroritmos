@@ -1,0 +1,7 @@
+C:\Users\omar\source\repos\EstructuraDatos\cola\bin\Debug\cola.exe.config
+C:\Users\omar\source\repos\EstructuraDatos\cola\bin\Debug\cola.exe
+C:\Users\omar\source\repos\EstructuraDatos\cola\bin\Debug\cola.pdb
+C:\Users\omar\source\repos\EstructuraDatos\cola\obj\Debug\cola.csprojAssemblyReference.cache
+C:\Users\omar\source\repos\EstructuraDatos\cola\obj\Debug\cola.csproj.CoreCompileInputs.cache
+C:\Users\omar\source\repos\EstructuraDatos\cola\obj\Debug\cola.exe
+C:\Users\omar\source\repos\EstructuraDatos\cola\obj\Debug\cola.pdb

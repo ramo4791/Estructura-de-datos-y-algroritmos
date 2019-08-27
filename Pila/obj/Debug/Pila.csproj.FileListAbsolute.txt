@@ -1,0 +1,7 @@
+c:\users\omar\source\repos\EstructuraDatos\Pila\bin\Debug\Pila.exe.config
+c:\users\omar\source\repos\EstructuraDatos\Pila\bin\Debug\Pila.exe
+c:\users\omar\source\repos\EstructuraDatos\Pila\bin\Debug\Pila.pdb
+c:\users\omar\source\repos\EstructuraDatos\Pila\obj\Debug\Pila.csprojAssemblyReference.cache
+c:\users\omar\source\repos\EstructuraDatos\Pila\obj\Debug\Pila.csproj.CoreCompileInputs.cache
+c:\users\omar\source\repos\EstructuraDatos\Pila\obj\Debug\Pila.exe
+c:\users\omar\source\repos\EstructuraDatos\Pila\obj\Debug\Pila.pdb
