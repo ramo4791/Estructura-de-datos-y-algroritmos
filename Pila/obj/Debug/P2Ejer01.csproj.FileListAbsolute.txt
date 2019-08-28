@@ -1,0 +1,6 @@
+C:\Users\omar\source\repos\EstructuraDatos\Pila\bin\Debug\Pila.exe.config
+C:\Users\omar\source\repos\EstructuraDatos\Pila\bin\Debug\Pila.exe
+C:\Users\omar\source\repos\EstructuraDatos\Pila\bin\Debug\Pila.pdb
+C:\Users\omar\source\repos\EstructuraDatos\Pila\obj\Debug\P2Ejer01.csproj.CoreCompileInputs.cache
+C:\Users\omar\source\repos\EstructuraDatos\Pila\obj\Debug\Pila.exe
+C:\Users\omar\source\repos\EstructuraDatos\Pila\obj\Debug\Pila.pdb

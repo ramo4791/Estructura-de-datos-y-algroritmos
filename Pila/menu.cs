@@ -13,11 +13,13 @@ namespace Pila
             string a;
             char b;
             Console.Clear();
-            Console.WriteLine("a: Insertar Lista");
-            Console.WriteLine("b: Suprimir Lista");
-            Console.WriteLine("c: Mostrar Lista");
-            Console.WriteLine("d: ");
-            Console.WriteLine("e: Salir");
+            Console.WriteLine("a: Insertar Pila Secuencial");
+            Console.WriteLine("b: Suprimir Pila Secuencial");
+            Console.WriteLine("c: Mostrar Pila Secuencial");
+            Console.WriteLine("d: Insertar Pila Enlazada");
+            Console.WriteLine("e: Suprimir Pila Enlazada");
+            Console.WriteLine("f: Mostrar Pila Enlazada");
+            Console.WriteLine("g: Salir");
             Console.Write("\n\nOPCION : ");
             a = Console.ReadLine();
             //Console.ReadLine();
