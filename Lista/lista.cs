@@ -30,8 +30,7 @@ namespace Lista
 
         public bool insertar_p (int x, int p)
         {
-            int mov = 0;
-            
+                       
             if (ult == tamaño - 1)
             {
                 Console.WriteLine("No hay lugar");

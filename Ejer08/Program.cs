@@ -17,7 +17,7 @@ namespace Ejer08
             double prob_lleg;
             Random rdn = new Random();
             int reloj=0;
-            int ts;
+            int ts;//tiempo
             Console.WriteLine("Ingrese tiempo de simulacion en minutos :");
             ts = int.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese tiemmpo promedio de preparacion del plato");
@@ -30,7 +30,7 @@ namespace Ejer08
             int clientra = 0;
 
             maxte = 0;
-            while (reloj < ts)
+            while (reloj < ts)//300
             {
                 if (rdn.Next(101)<prob_lleg)
                 {

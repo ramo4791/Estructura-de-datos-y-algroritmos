@@ -1,0 +1,7 @@
+C:\Users\omar\source\repos\EstructuraDatos\Lista\bin\Debug\Lista.exe.config
+C:\Users\omar\source\repos\EstructuraDatos\Lista\bin\Debug\Lista.exe
+C:\Users\omar\source\repos\EstructuraDatos\Lista\bin\Debug\Lista.pdb
+C:\Users\omar\source\repos\EstructuraDatos\Lista\obj\Debug\P3Ejer01.csprojAssemblyReference.cache
+C:\Users\omar\source\repos\EstructuraDatos\Lista\obj\Debug\P3Ejer01.csproj.CoreCompileInputs.cache
+C:\Users\omar\source\repos\EstructuraDatos\Lista\obj\Debug\Lista.exe
+C:\Users\omar\source\repos\EstructuraDatos\Lista\obj\Debug\Lista.pdb

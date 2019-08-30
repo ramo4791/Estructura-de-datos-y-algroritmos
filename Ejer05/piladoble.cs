@@ -67,8 +67,8 @@ namespace Ejer05
             }
             else
             {
-                tope2--;
-                elem[tope2] = xn;
+                //tope2--;
+                elem[--tope2] = xn;
                 Console.WriteLine("elemento insertado " + elem[tope2]);
             }
         }
