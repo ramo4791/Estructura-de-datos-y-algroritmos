@@ -63,6 +63,35 @@ namespace Lista
                 }
             }
         }
+        public bool suprimir (ref int x,  int p)
+        {
+            if (!lista_vacia())
+            {
+                p = p - 1;
+                if ((p >= 0) && (p <= ult ))
+                {
+                    x = elem[p];
+                    for(int i=p; i<ult;i++)
+                    {
+                        elem[i] = elem[i + 1];
+                    }
+                    ult--;
+                    return true;
+                }
+                else
+                {
+                    Console.WriteLine("verificar posicion entre 1 y n");
+                    return false;
+                }
+
+
+            }
+            else
+            {
+                Console.WriteLine("Lista vacia ");
+                return false;
+            }
+        }
 
         public int buscar (int x)
         {
@@ -79,11 +108,83 @@ namespace Lista
             return -1;
         }
 
+        public bool recuperar (ref int x,  int p)
+        {
+            if (!lista_vacia())
+            {
+                p = p - 1;
+                if ((p >= 0) && (p <= ult))
+                {
+                    x = elem[p];          
+                    return true;
+                }
+                else
+                {
+                    Console.WriteLine("verificar posicion entre 1 y n");
+                    return false;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Lista vacia ");
+                return false;
+            }
+        }
+
         public void mostrar_lista()
         {
             Console.WriteLine("Elementos de la lista ");
             for (int i = 0; i <= ult; i++)
                 Console.Write(" " + elem[i]);
+        }
+
+        public bool primero (ref int x)
+        {
+            if (!lista_vacia())
+            {
+                x = elem[0];
+                return true;
+            }
+            else
+                return false;
+        }
+
+        public bool ultimo (ref int x)
+        {
+            if (!lista_vacia())
+            {
+                x = elem[ult];
+                return true;
+            }
+            else
+                return false;
+
+        }
+
+        public bool siguiente(int p, ref int p1)
+        {
+            p--;
+            if ((p >= 0) && (p < ult))
+            {
+            p1 = p+2;
+            return true;
+            }
+            else
+                return false;
+        }
+
+        
+        public bool anterior (int p, ref int p1)
+        {
+            p--;
+        
+            if ((p > 0) && (p <= ult))
+            {
+                p1 = p;
+                return true;
+            }
+            else
+                return false;
         }
     }
 }

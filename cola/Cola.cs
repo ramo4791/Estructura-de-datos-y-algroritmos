@@ -35,7 +35,7 @@ namespace cola
         {
             if (cant < max)
             {
-                ult = (pr + cant) % max;
+                ult = (ult+1) % max;//tocar solo el ultimo
                 elem[ult] = x;               
                 cant++;
             }

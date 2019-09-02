@@ -17,9 +17,12 @@ namespace Lista
             Console.WriteLine("b: Suprimir Lista Secuencial");
             Console.WriteLine("c: Mostrar Lista Secuencial");
             Console.WriteLine("d: Buscar en Lista");
-            Console.WriteLine("e: ");
-            Console.WriteLine("f: ");
-            Console.WriteLine("g: Salir");
+            Console.WriteLine("e: Recuperar");
+            Console.WriteLine("f: Primer Elemento");
+            Console.WriteLine("g: Ultimo Elemento");
+            Console.WriteLine("h: Siguiente");
+            Console.WriteLine("i: Anterior");
+            Console.WriteLine("j: Salir");
             Console.Write("\n\nOPCION : ");
             a = Console.ReadLine();
             //Console.ReadLine();

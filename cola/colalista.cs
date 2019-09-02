@@ -53,7 +53,10 @@ namespace cola
             {
                 x = pr.get_dato();
                 pr = pr.get_sig();
+                if (cant == 1)
+                    ult = null;
                 cant--;
+
             }
 
             return x;

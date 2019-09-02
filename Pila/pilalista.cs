@@ -49,9 +49,7 @@ namespace Pila
         }
 
         public void mostrar_lista()
-        {
-            
-
+        {            
             if (pila_vacia())
                 Console.WriteLine("La pila enlazada esta vacia");
             else
@@ -65,6 +63,9 @@ namespace Pila
                 }
             }
         }
+
+
+
     }
 }
 
