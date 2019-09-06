@@ -13,7 +13,7 @@ namespace ListaE
             string a;
             char b;
             Console.Clear();
-            Console.WriteLine("a: Insertar Lista Enlazada");
+            Console.WriteLine("a: Insertar Lista Enlazada por posicion");
             Console.WriteLine("b: Suprimir Lista Enlazada");
             Console.WriteLine("c: Mostrar Lista Enlazada");
             Console.WriteLine("d: Buscar en Lista");
@@ -22,7 +22,9 @@ namespace ListaE
             Console.WriteLine("g: Ultimo Elemento");
             Console.WriteLine("h: Siguiente");
             Console.WriteLine("i: Anterior");
-            Console.WriteLine("j: Salir");
+            Console.WriteLine("j: Insertar Lista Enlazada Ordenado");
+
+            Console.WriteLine("k: Salir");
             Console.Write("\n\nOPCION : ");
             a = Console.ReadLine();
             //Console.ReadLine();

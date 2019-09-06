@@ -52,48 +52,55 @@ namespace ListaE
                             Console.WriteLine("El dato {0} se encuentra en la posicion {1}",dato,pos);                           
                         Console.ReadLine();
                         break;
-                    //case 'e':
-                    //    Console.Write("Ingrese posicion para recuperar entre < 1 y cant>  : ");
-                    //    pos = int.Parse(Console.ReadLine());
-                    //    if (l.recuperar(ref dato, pos))
-                    //        Console.WriteLine("El elemento recuperado de la pos {0 } es  {1}",pos, dato);
-                    //    else
-                    //        Console.WriteLine("ERROR ");
-                    //    Console.ReadLine();
-                    //    break;
-                    //case 'f':
-                    //    if (l.primero(ref dato))
-                    //        Console.WriteLine("El primer elemento es : " + dato);
-                    //    else
-                    //        Console.WriteLine("ERROR");
-                    //    Console.ReadLine();
-                    //    break;
-                    //case 'g':
-                    //    if (l.ultimo(ref dato))
-                    //        Console.WriteLine("El ultimo elemento es : " + dato);
-                    //    else
-                    //        Console.WriteLine("ERROR");
-                    //    Console.ReadLine();
-                    //    break;
-                    //case 'h':
-                    //    Console.Write("Ingrese posicion para buscar siguiente : ");
-                    //    pos = int.Parse(Console.ReadLine());
-                    //    if (l.siguiente (pos,ref dato))
-                    //        Console.WriteLine("La posicion siguiente es : " + dato);
-                    //    else
-                    //        Console.WriteLine("ERROR");
-                    //    Console.ReadLine();
-                    //    break;
-                    //case 'i':
-                    //    Console.Write("Ingrese posicion para buscar anterior : ");
-                    //    pos = int.Parse(Console.ReadLine());
-                    //    if (l.anterior(pos, ref dato))
-                    //        Console.WriteLine("La posicion anterior es : " + dato);
-                    //    else
-                    //        Console.WriteLine("ERROR");
-                    //    Console.ReadLine();
-                    //    break;
+                    case 'e':
+                        Console.Write("Ingrese posicion para recuperar entre < 1 y cant>  : ");
+                        pos = int.Parse(Console.ReadLine());
+                        if (lp.recuperar(ref dato, pos))
+                            Console.WriteLine("El elemento recuperado de la pos {0 } es  {1}", pos, dato);
+                        else
+                            Console.WriteLine("ERROR ");
+                        Console.ReadLine();
+                        break;
+                    case 'f':
+                        if (lp.primero(ref dato))
+                            Console.WriteLine("El primer elemento es : " + dato);
+                        else
+                            Console.WriteLine("ERROR");
+                        Console.ReadLine();
+                        break;
+                    case 'g':
+                        if (lp.ultimo(ref dato))
+                            Console.WriteLine("El ultimo elemento es : " + dato);
+                        else
+                            Console.WriteLine("ERROR");
+                        Console.ReadLine();
+                        break;
+                    case 'h':
+                        Console.Write("Ingrese posicion para buscar siguiente : ");
+                        pos = int.Parse(Console.ReadLine());
+                        if (lp.siguiente(pos, ref dato))
+                            Console.WriteLine("La posicion siguiente es : " + dato);
+                        else
+                            Console.WriteLine("ERROR");
+                        Console.ReadLine();
+                        break;
+                    case 'i':
+                        Console.Write("Ingrese posicion para buscar anterior : ");
+                        pos = int.Parse(Console.ReadLine());
+                        if (lp.anterior(pos, ref dato))
+                            Console.WriteLine("La posicion anterior es : " + dato);
+                        else
+                            Console.WriteLine("ERROR");
+                        Console.ReadLine();
+                        break;
                     case 'j':
+                        Console.Write("Ingrese numero a la lista  : ");
+                        dato = int.Parse(Console.ReadLine());
+                        lp.insertar_o(dato);
+                        Console.WriteLine("se inserto correcto");
+                        Console.ReadLine();
+                        break;
+                    case 'k':
                         break;
 
                     default:
@@ -103,7 +110,7 @@ namespace ListaE
                         break;
                 }
             }
-            while (op != 'j');
+            while (op != 'k');
             Console.ReadLine();
         }
     }

@@ -55,6 +55,36 @@ namespace ListaE
             else
                 return false;
         }
+        public void insertar_o(int x)
+        {
+            nodo aux, ant, xcab;
+
+            aux = new nodo();
+            aux.set_dato(x);
+         
+            if ((cant == 0) || (x <= cab.get_dato()))//primer caso lista vacia o el el primero
+            {
+                aux.set_sig(cab);
+                cab = aux;
+                cant++;
+            }
+            else
+            {
+                xcab = cab;
+                ant = cab;//obliga a inicializar anterior
+
+                while ((xcab!=null) && (x > xcab.get_dato()))
+                {
+                    ant = xcab;
+                    xcab = xcab.get_sig();
+                }
+                ant.set_sig(aux);
+                aux.set_sig(xcab);
+                cant++;
+            }
+        }
+
+             
 
         public bool suprimir (ref int x, int p )
         {
@@ -107,7 +137,24 @@ namespace ListaE
                 return -1;
         }
 
+        public bool recuperar (ref int x, int p)
+        {
+            nodo xcab = cab;
+            int i = 1;
 
+            if (p >= 1 && p <= cant)//primero valido posicion
+            {
+                while(i<p)
+                {
+                    xcab = xcab.get_sig();
+                    i++;
+                }
+                x = xcab.get_dato();
+                return true;
+            }
+            else
+                return false;
+        }
 
 
         public void mostrar_l()
@@ -136,9 +183,58 @@ namespace ListaE
                 return
                         false;
         }
-        
+        public bool primero(ref int x)
+        {
+            if (!vacia())
+            {
+                x = cab.get_dato();
+                return true;
+            }
+            else
+                return false;
+        }
+
+        public bool ultimo(ref int x)
+        {
+            nodo xcab = cab;
+            if (!vacia())
+            {
+                while(xcab.get_sig()!=null)
+                {
+                    xcab = xcab.get_sig();
+                }
+                x = xcab.get_dato();
+                return true;
+            }
+            else
+                return false;
+
+        }
+
+        public bool siguiente(int p, ref int p1)
+        {
+            if ((p >= 0) && (p < cant))
+            {
+                p1 = p + 1;
+                return true;
+            }
+            else
+                return false;
+        }
 
 
-    
+        public bool anterior(int p, ref int p1)
+        {
+
+            if ((p > 0) && (p <= cant))
+            {
+                p1 = p-1;
+                return true;
+            }
+            else
+                return false;
+        }
+
+
     }
 }

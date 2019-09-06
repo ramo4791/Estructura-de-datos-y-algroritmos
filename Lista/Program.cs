@@ -99,6 +99,16 @@ namespace Lista
                         Console.ReadLine();
                         break;
                     case 'j':
+                        Console.Write("Ingrese numero a la lista  : ");
+                        dato = int.Parse(Console.ReadLine());                        
+                        if (l.insertar_o(dato))
+                            //if (lp.insertar_p(dato, pos))
+                            Console.WriteLine("se inserto correcto");
+                        else
+                            Console.WriteLine("No se pudo insertar");
+                        Console.ReadLine();
+                        break;
+                    case 'k':
                         break;
 
                     default:
@@ -108,7 +118,7 @@ namespace Lista
                         break;
                 }
             }
-            while (op != 'j');
+            while (op != 'k');
             Console.ReadLine();
         }
     }

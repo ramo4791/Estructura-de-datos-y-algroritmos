@@ -63,6 +63,40 @@ namespace Lista
                 }
             }
         }
+        public bool insertar_o(int x)
+        {
+            int p,u,m;
+            
+
+            if (ult == tamaño - 1)
+            {
+                Console.WriteLine("No hay lugar");
+                return false;
+            }
+            else
+            {
+                    p = 0;
+                    u = ult;
+
+                    while (p <= u)
+                    {
+                        m = (p + u) / 2;
+
+                        if (x <=elem[m])
+                            u = m - 1;
+                        else
+                            p = m + 1;
+                    }                  
+                    for (int i = ult + 1; i > p; i--)
+                    {
+                        elem[i] = elem[i - 1];
+                    }
+                    elem[p] = x;                                       
+                    ult++;               
+                return true;                           
+            }
+        }
+
         public bool suprimir (ref int x,  int p)
         {
             if (!lista_vacia())

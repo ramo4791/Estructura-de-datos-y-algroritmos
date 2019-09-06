@@ -1,0 +1,7 @@
+C:\Users\omar\source\repos\EstructuraDatos\Ejer09\bin\Debug\Ejer09.exe.config
+C:\Users\omar\source\repos\EstructuraDatos\Ejer09\bin\Debug\Ejer09.exe
+C:\Users\omar\source\repos\EstructuraDatos\Ejer09\bin\Debug\Ejer09.pdb
+C:\Users\omar\source\repos\EstructuraDatos\Ejer09\obj\Debug\P2Ejer09.csprojAssemblyReference.cache
+C:\Users\omar\source\repos\EstructuraDatos\Ejer09\obj\Debug\P2Ejer09.csproj.CoreCompileInputs.cache
+C:\Users\omar\source\repos\EstructuraDatos\Ejer09\obj\Debug\Ejer09.exe
+C:\Users\omar\source\repos\EstructuraDatos\Ejer09\obj\Debug\Ejer09.pdb
