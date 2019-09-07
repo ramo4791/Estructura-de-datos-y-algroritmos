@@ -8,99 +8,108 @@ namespace P3Ejer01c
 {
     class ListaC
     {
-        private int[] item;
-        private int[] sig;
-        private int[] pil;
+        private nodo[] nodos;
         private int cant_l;
-        private int tope;
+        private int cant_p;
+        private int disp;//cabeza pila
+        private int cab;//cabeza de lista
         private int tam;
-        private int cab;
 
 
         public ListaC(int xtam)
         {
             cab = -1;
             tam = xtam;
-            item = new int[tam];
-            sig = new int[tam];
-            pil = new int[tam];
-            tope = tam;
+            nodos = new nodo[tam];      
+            disp = -1;
             cant_l = 0;
+            cant_p = 0;
             //inicializa pila espacios libres
-            for (int i = 9; i >= 0; i--)
+            for (int i = 0; i<tam; i++)
             {
-                insertar_sig(i);
+                insertar_p(i);
             }
-        }
-
-        public bool pila_vacia()
-        {
-            if (tope == tam)
-                return true;
-            else
-                return false;
         }
 
         public bool pila_llena()
         {
-            if (tope == 0)
+            if (cant_p==tam)
                 return true;
             else
                 return false;
         }
-        public void insertar_sig(int xn) //push
+
+        public bool pila_vacia()
+        {
+            if (cant_p == 0)
+                return true;
+            else
+                return false;
+        }
+
+        public bool insertar_p(int xn) //push
         {
             if (pila_llena() == true)
             {
                 Console.WriteLine("\n La pila esta llena ");
+                return false;
             }
             else
             {
-                tope--;
-                pil[tope] = xn;
-                Console.WriteLine("elemento insertado " + pil[tope]);
+                nodo aux = new nodo();
+                aux.set_dato(xn);
+                aux.set_sig(disp);
+                nodos[xn] = aux;
+                disp = xn;
+                cant_p++;
+                return true;
             }
-        }
-        public int suprimir_sig() //pop
-        {
-            int n = 0;
-            if (pila_vacia())
-                Console.WriteLine("La pila esta vacia");
-            else
-            {
-                n = pil[tope];
-                tope++;
-            }
-            return n;
         }
 
-        public void mostrar_sig()
+        public int suprimir_p() //pop
+        {
+            int x;
+            
+            x = nodos[disp].get_dato();
+            disp = nodos[disp].get_sig();
+            cant_p--;   
+            return x;
+        }
+
+        public void mostrar_p()
         {
             if (!pila_vacia())
             {
+                int xcab = disp;
                 Console.WriteLine("Elementos Pila: ");
-                for (int i = tope; i < tam; i++)
-                    Console.WriteLine(" - " + pil[i]);
+                while(xcab!=-1)
+                {
+                    Console.WriteLine(" - " + nodos[xcab].get_dato());
+                    xcab = nodos[xcab].get_sig();
+                }
             }
             else
                 Console.WriteLine("Pila vacia");
         }
 
+
         public bool insertar_c(int x, int p)
         {
-            
-            int ant, xcab, aux;
+
+            int ant, xcab;
+            int aux;
             int i = 1;
             if (pila_vacia())
                 return false;//sale si no hay espacio en memoria
-            aux = suprimir_sig();
-            item[aux] = x;
+            aux = suprimir_p();
 
-            if (p >= 1 && p <= cant_l + 1 ) // si la posicion es correcta se inserta
+            nodos[aux].set_dato(x);
+
+            if (p >= 1 && p <= cant_l + 1) // si la posicion es correcta se inserta
             {
                 if ((cant_l == 0) || (p == 1))//primer caso lista vacia o el el primero
                 {
-                    sig[aux] = cab;
+                    nodos[aux].set_sig(cab); 
                     cab = aux;
                     cant_l++;
                 }
@@ -109,16 +118,14 @@ namespace P3Ejer01c
                     xcab = cab;
                     ant = cab;//obliga a inicializar anterior
 
-                    while (i < p)
+                    while (i<p)
                     {
                         ant = xcab;
-                        xcab = sig[xcab];
+                        xcab = nodos[xcab].get_sig(); 
                         i++;
                     }
-                    //ant.set_sig(aux);
-                    sig[ant] = aux;
-                    //aux.set_sig(xcab);
-                    sig[aux] = xcab;
+                    nodos[ant].set_sig(aux);
+                    nodos[aux].set_sig(xcab);
                     cant_l++;
                 }
                 return true;
@@ -126,21 +133,22 @@ namespace P3Ejer01c
             else
                 return false;
         }
-        public bool suprimir_lc(ref int x, int p)
+
+        public bool suprimir_c(ref int x, int p)
         {
             int ant, xcab;
             int i = 1;
-            int free;
+            int aux;
             if (p >= 1 && p <= cant_l && !vacia_lc())//valido posicion y que no este vacia
             {
                 if (p == 1)
                 {
                     //x = cab.get_dato();
-                    x = item[cab];
+                    x = nodos[cab].get_dato();
                     //cab = cab.get_sig();
-                    free = cab;
-                    cab = sig[cab];
-                    insertar_sig(free);
+                    aux = cab;
+                    cab = nodos[cab].get_sig();
+                    insertar_p(aux);
                 }
                 else
                 {
@@ -150,15 +158,15 @@ namespace P3Ejer01c
                     {
                         ant = xcab;
                         //xcab = xcab.get_sig();
-                        xcab = sig[xcab];
+                        xcab = nodos[xcab].get_sig();
                         i++;
                     }
                     //x = xcab.get_dato();
-                    x = item[xcab];
-                    free = xcab;
+                    x = nodos[xcab].get_dato();
+                    aux = xcab;
                     //ant.set_sig(xcab.get_sig());//hace el enlace en para eliminar elemento;
-                    sig[ant] = sig[xcab];
-                    insertar_sig(free);
+                    nodos[ant].set_sig(nodos[xcab].get_sig());
+                    insertar_p(aux);
                 }
                 cant_l--;
                 return true;
@@ -168,7 +176,7 @@ namespace P3Ejer01c
 
         }
 
-     
+
 
 
         public bool vacia_lc()
@@ -189,8 +197,8 @@ namespace P3Ejer01c
                 Console.WriteLine("Elementos de la lista");
                 while (xcab != -1)
                 {
-                    Console.WriteLine(" - " + item[xcab]);
-                    xcab = sig[xcab];
+                    Console.WriteLine(" - " + nodos[xcab].get_dato());
+                    xcab = nodos[xcab].get_sig();
                 }
             }
             else

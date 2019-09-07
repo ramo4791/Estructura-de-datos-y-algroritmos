@@ -1,0 +1,199 @@
+pais_id;pais;provincia_id;provincia;departamento_id;departamento;sup_afectada;uni_med_id;cant_focos;año_inicial
+32;Argentina;6;Buenos Aires;833;Tres Arroyos;2400;ha;1;2014
+32;Argentina;6;Buenos Aires;644;Pinamar;6;ha;1;2016
+32;Argentina;6;Buenos Aires;112;Bragado;1;ha;;2017
+32;Argentina;6;Buenos Aires;588;9 de julio;4;ha;;2017
+32;Argentina;6;Buenos Aires;665;Ramallo;32.1;ha;;2017
+32;Argentina;14;Córdoba;14;Calamuchita;50;ha;1;2015
+32;Argentina;14;Córdoba;91;Punilla;1;ha;1;2017
+32;Argentina;14;Córdoba;147;Santa María;10.07;ha;3;2017
+32;Argentina;18;Corrientes;56;General Alvear;0.03;ha;1;2011
+32;Argentina;18;Corrientes;56;General Alvear;257;ha;1;2012
+32;Argentina;18;Corrientes;28;Concepción;20;ha;1;2011
+32;Argentina;18;Corrientes;28;Concepción;130;ha;2;2012
+32;Argentina;18;Corrientes;28;Concepción;5;ha;1;2013
+32;Argentina;18;Corrientes;28;Concepción;146;ha;1;2015
+32;Argentina;18;Corrientes;28;Concepción;11.5;ha;3;2017
+32;Argentina;18;Corrientes;35;Curuzú Cuatía;50;ha;1;2011
+32;Argentina;18;Corrientes;70;Goya;30;ha;1;2012
+32;Argentina;18;Corrientes;56;Gral paz;6;ha;1;2016
+32;Argentina;18;Corrientes;84;Itizaingó;707;ha;5;2011
+32;Argentina;18;Corrientes;84;Itizaingó;294.3;ha;3;2012
+32;Argentina;18;Corrientes;84;Ituzaingo;378;ha;1;2013
+32;Argentina;18;Corrientes;84;Ituzaingo;158;ha;3;2014
+32;Argentina;18;Corrientes;84;Ituzaingo;36.1;ha;1;2017
+32;Argentina;18;Corrientes;112;Monte Caseros;300;ha;1;2012
+32;Argentina;18;Corrientes;112;Monte Caseros;450;ha;1;2013
+32;Argentina;18;Corrientes;112;Monte Caseros;1639.9;ha;2;2017
+32;Argentina;18;Corrientes;119;Paso  de los Libres;72.9;ha;4;2011
+32;Argentina;18;Corrientes;119;Paso  de los Libres;450;ha;5;2012
+32;Argentina;18;Corrientes;119;Paso de los Libres;15;ha;2;2013
+32;Argentina;18;Corrientes;119;Paso de los Libres;332.5;ha;3;2017
+32;Argentina;18;Corrientes;126;Saladas;20;ha;2;2015
+32;Argentina;18;Corrientes;147;San Martín;157.9;ha;2;2011
+32;Argentina;18;Corrientes;147;San Martín;141;ha;1;2012
+32;Argentina;18;Corrientes;154;San Miguel;247;ha;2;2011
+32;Argentina;18;Corrientes;154;San Miguel;295;ha;3;2012
+32;Argentina;18;Corrientes;154;San Miguel;147;ha;1;2014
+32;Argentina;18;Corrientes;161;San Roque;35;ha;1;2011
+32;Argentina;18;Corrientes;161;San Roque;10;ha;1;2012
+32;Argentina;18;Corrientes;168;Santo Tomé;430.36;ha;9;2011
+32;Argentina;18;Corrientes;168;Santo Tomé;1970;ha;18;2012
+32;Argentina;18;Corrientes;168;Santo Tomé;115.25;ha;2;2013
+32;Argentina;18;Corrientes;168;Santo Tomé;125;ha;3;2014
+32;Argentina;18;Corrientes;168;Santo Tomé;3;ha;2;2015
+32;Argentina;18;Corrientes;168;Santo Tomé;67.4;ha;5;2016
+32;Argentina;18;Corrientes;168;Santo Tomé;5;ha;1;2017
+32;Argentina;22;Chaco;7;Almirante Brown;30;ha;;2017
+32;Argentina;22;Chaco;36;12 de Octubre;58;ha;;2017
+32;Argentina;22;Chaco;91;Maipú;3;ha;;2017
+32;Argentina;22;Chaco;98;Mayor Luis Fontana;16;ha;;2017
+32;Argentina;22;Chaco;112;O´Higgins;60;ha;;2017
+32;Argentina;26;Chubut;14;Cushamen;2.2434;ha;15;2011
+32;Argentina;26;Chubut;14;Cushamen;259.801;ha;3;2012
+32;Argentina;26;Chubut;14;Cushamen;16.009;ha;4;2013
+32;Argentina;26;Chubut;14;Cushamen;20.44;ha;7;2014
+32;Argentina;26;Chubut;14;Cushamen;187.23;ha;9;2015
+32;Argentina;26;Chubut;14;Cushamen;0.918;ha;10;2016
+32;Argentina;26;Chubut;14;Cushamen;21.88;ha;8;2017
+32;Argentina;26;Chubut;35;Futaleufú;11.101;ha;9;2011
+32;Argentina;26;Chubut;35;Futaleufú;2.6032;ha;17;2012
+32;Argentina;26;Chubut;35;Futaleufú;0.441;ha;7;2013
+32;Argentina;26;Chubut;35;Futaleufú;0.296;ha;6;2014
+32;Argentina;26;Chubut;35;Futaleufú;10;ha;34;2015
+32;Argentina;26;Chubut;35;Futaleufú;21.85;ha;17;2016
+32;Argentina;26;Chubut;35;Futaleufú;41.55;ha;12;2017
+32;Argentina;26;Chubut;56;Languiñeo;0.03;ha;1;2012
+32;Argentina;26;Chubut;56;Languiñeo;0.091;ha;2;2013
+32;Argentina;26;Chubut;98;Tehuelches;0.66;ha;1;2015
+32;Argentina;26;Chubut;98;Tehuelches;0.14;ha;1;2016
+32;Argentina;30;Entre Ríos;8;Colón;20;ha;1;2014
+32;Argentina;30;Entre Ríos;15;Concordia;241;ha;0;2012
+32;Argentina;30;Entre Ríos;15;Concordia;144.5;ha;0;2013
+32;Argentina;30;Entre Ríos;15;Concordia;21;ha;1;2014
+32;Argentina;30;Entre Ríos;15;Concordia;24.5;ha;7;2015
+32;Argentina;30;Entre Ríos;15;Concordia;21;ha;2;2016
+32;Argentina;30;Entre Ríos;15;Concordia;1;ha;1;2017
+32;Argentina;30;Entre Ríos;28;Federación;8;ha;;2012
+32;Argentina;30;Entre Ríos;28;Federación;19;ha;2;2014
+32;Argentina;30;Entre Ríos;28;Federación;10;ha;1;2015
+32;Argentina;30;Entre Ríos;28;Federación;10;ha;1;2016
+32;Argentina;30;Entre Ríos;28;Federación;8;ha;1;2017
+32;Argentina;30;Entre Ríos;35;Federal;12;ha;0;2012
+32;Argentina;30;Entre Ríos;56;Gualeguachú;7;ha;1;2016
+32;Argentina;30;Entre Ríos;56;Gualeguachú;2;ha;1;2017
+32;Argentina;30;Entre Ríos;63;Islas del Ibicuy;90;ha;0;2012
+32;Argentina;30;Entre Ríos;63;Islas del Ibicuy;2;ha;1;2017
+32;Argentina;30;Entre Ríos;70;La Paz;10;ha;0;2012
+32;Argentina;38;Jujuy;21;Dr Manuel Belgrano;3.85;ha;10;2012
+32;Argentina;38;Jujuy;21;Dr Manuel Belgrano;1188.7;ha;10;2013
+32;Argentina;38;Jujuy;21;Dr Manuel Belgrano;0.83;ha;3;2014
+32;Argentina;38;Jujuy;21;Dr Manuel Belgrano;21.04;ha;5;2015
+32;Argentina;38;Jujuy;21;Dr Manuel Belgrano;10.29;ha;2;2017
+32;Argentina;38;Jujuy;14;El Carmen;0.9;ha;1;2012
+32;Argentina;38;Jujuy;14;El Carmen;1.35;ha;1;2013
+32;Argentina;38;Jujuy;14;El Carmen;7.7;ha;1;2014
+32;Argentina;38;Jujuy;14;El Carmen;1.3;ha;1;2015
+32;Argentina;38;Jujuy;14;El Carmen;15;ha;1;2016
+32;Argentina;38;Jujuy;14;El Carmen;13.77;ha;4;2017
+32;Argentina;38;Jujuy;35;Ledesma;7.55;ha;4;2012
+32;Argentina;38;Jujuy;35;Ledesma;59.6;ha;3;2013
+32;Argentina;38;Jujuy;35;Ledesma;1;ha;1;2016
+32;Argentina;38;Jujuy;35;Ledesma;10.99;ha;3;2017
+32;Argentina;38;Jujuy;42;Palpalá;741.3;ha;2;2012
+32;Argentina;38;Jujuy;42;Palpalá;560.8;ha;10;2013
+32;Argentina;38;Jujuy;42;Palpalá;14.9;ha;4;2014
+32;Argentina;38;Jujuy;42;Palpalá;22.21;ha;3;2015
+32;Argentina;38;Jujuy;42;Palpalá;1.3;ha;1;2016
+32;Argentina;38;Jujuy;42;Palpalá;32.4;ha;4;2017
+32;Argentina;38;Jujuy;56;San Antonio;0.26;ha;1;2012
+32;Argentina;38;Jujuy;56;San Antonio;24;ha;1;2013
+32;Argentina;38;Jujuy;56;San Antonio;1.1;ha;2;2014
+32;Argentina;38;Jujuy;63;San Pedro;62.85;ha;2;2013
+32;Argentina;38;Jujuy;63;San Pedro;2.4;ha;2;2017
+32;Argentina;38;Jujuy;70;Santa Bárbara;1.2;ha;1;2013
+32;Argentina;38;Jujuy;70;Santa Bárbara;1;ha;1;2017
+32;Argentina;42;La Pampa;21;Capital;20;ha;2;2014
+32;Argentina;42;La Pampa;21;Capital;18.5;ha;1;2016
+32;Argentina;42;La Pampa;98;Loventué;5;ha;1;2015
+32;Argentina;50;Mendoza;14;General Alvear;12;ha;1;2013
+32;Argentina;50;Mendoza;14;General Alvear;671.2;ha;21;2014
+32;Argentina;50;Mendoza;14;General Alvear;294.5;ha;45;2015
+32;Argentina;50;Mendoza;14;General Alvear;4.5;ha;3;2016
+32;Argentina;50;Mendoza;14;General Alvear;0.12;ha;1;2017
+32;Argentina;50;Mendoza;105;San Rafael;9;ha;1;2012
+32;Argentina;50;Mendoza;105;San Rafael;38.3;ha;6;2013
+32;Argentina;50;Mendoza;105;San Rafael;69;ha;6;2015
+32;Argentina;50;Mendoza;105;San Rafael;115;ha;3;2016
+32;Argentina;50;Mendoza;105;San Rafael;1.06;ha;2;2017
+32;Argentina;54;Misiones;7;Apostoles;71;ha;0;2012
+32;Argentina;54;Misiones;7;Apóstoles;12;ha;0;2013
+32;Argentina;54;Misiones;7;Apóstoles;13.5;ha;3;2014
+32;Argentina;54;Misiones;7;Apóstoles;2;ha;1;2015
+32;Argentina;54;Misiones;7;Apóstoles;0.4;ha;1;2016
+32;Argentina;54;Misiones;7;Apóstoles;2;ha;1;2017
+32;Argentina;54;Misiones;21;Candelaria;82;ha;0;2012
+32;Argentina;54;Misiones;21;Candelaria;25;ha;0;2013
+32;Argentina;54;Misiones;21;Candelaria;20;ha;2;2014
+32;Argentina;54;Misiones;21;Candelaria;110;ha;1;2015
+32;Argentina;54;Misiones;28;Capital;156;ha;0;2012
+32;Argentina;54;Misiones;28;Capital;1;ha;1;2015
+32;Argentina;54;Misiones;28;Capital;20;ha;1;2016
+32;Argentina;54;Misiones;28;Capital;3.5;ha;1;2017
+32;Argentina;54;Misiones;35;Concepción;5;ha;0;2012
+32;Argentina;54;Misiones;35;Concepción;3;ha;0;2013
+32;Argentina;54;Misiones;42;Eldorado;4.5;ha;0;2013
+32;Argentina;54;Misiones;56;Guaraní;0.5;ha;0;2012
+32;Argentina;54;Misiones;63;Iguazú;35;ha;1;2014
+32;Argentina;54;Misiones;70;Leandro N Alem;95;ha;0;2012
+32;Argentina;54;Misiones;70;Leandro N Alem;3;ha;0;2013
+32;Argentina;54;Misiones;91;Oberá;5;ha;1;2014
+32;Argentina;54;Misiones;98;San Ignacio;24;ha;0;2012
+32;Argentina;54;Misiones;98;San Ignacio;50;ha;1;2017
+32;Argentina;54;Misiones;105;San Javier;6;ha;0;2012
+32;Argentina;54;Misiones;119;25 de mayo;5.5;ha;;2012
+32;Argentina;58;Neuquén;7;Aluminé;0.55;ha;2;2011
+32;Argentina;58;Neuquén;7;Aluminé;6.122;ha;4;2012
+32;Argentina;58;Neuquén;7;Aluminé;8.01;ha;;2016
+32;Argentina;58;Neuquén;49;Huiliches;0.08;ha;1;2012
+32;Argentina;58;Neuquén;49;Huiliches;0.081;ha;2;2013
+32;Argentina;58;Neuquén;49;Huiliches;0.06;ha;1;2014
+32;Argentina;58;Neuquén;49;Huiliches;2.23;ha;3;2015
+32;Argentina;58;Neuquén;49;Huiliches;88.21;ha;;2017
+32;Argentina;58;Neuquén;56;Lacar;1.5925;ha;15;2011
+32;Argentina;58;Neuquén;56;Lacar;0.8091;ha;12;2012
+32;Argentina;58;Neuquén;56;Lacar;1.1226;ha;25;2013
+32;Argentina;58;Neuquén;56;Lacar;0.1663;ha;4;2014
+32;Argentina;58;Neuquén;56;Lacar;0.167;ha;4;2015
+32;Argentina;58;Neuquén;56;Lacar;0.02;ha;;2016
+32;Argentina;58;Neuquén;56;Lacar;0.73;ha;;2017
+32;Argentina;58;Neuquén;63;Loncopué;380;ha;1;2012
+32;Argentina;58;Neuquén;70;Los Lagos;0.003;ha;1;2012
+32;Argentina;58;Neuquén;70;Los Lagos;0.0015;ha;2;2015
+32;Argentina;58;Neuquén;77;Minas;0.38;ha;4;2012
+32;Argentina;58;Neuquén;77;Minas;0.002;ha;1;2013
+32;Argentina;58;Neuquén;77;Minas;0.0064;ha;1;2014
+32;Argentina;58;Neuquén;84;Ñorquinco;243.15;ha;2;2012
+32;Argentina;58;Neuquén;84;Ñorquinco;11.595;ha;1;2013
+32;Argentina;62;Río Negro;21;Bariloche;0.43;ha;49;2011
+32;Argentina;62;Río Negro;21;Bariloche;6.63;ha;108;2012
+32;Argentina;62;Río Negro;21;Bariloche;9.73;ha;112;2013
+32;Argentina;62;Río Negro;21;Bariloche;5.07;ha;112;2014
+32;Argentina;62;Río Negro;21;Bariloche;30.58;ha;112;2015
+32;Argentina;62;Río Negro;21;Bariloche;51.91;ha;74;2016
+32;Argentina;62;Río Negro;21;Bariloche;5.34;ha;62;2017
+32;Argentina;66;Salta;28;Capital;0.31;ha;;2015
+32;Argentina;66;Salta;28;Capital;0.7;ha;;2017
+32;Argentina;66;Salta;112;Metan;2.3;ha;;2015
+32;Argentina;66;Salta;147;Rosario de Lerma;8.7;ha;;2017
+32;Argentina;70;San Juan;84;Rivadavía;5;ha;2;2015
+32;Argentina;82;Santa Fe;84;Rosario ;43;ha;;2017
+32;Argentina;82;Santa Fe;91;San Cristobal;10;ha;;2017
+32;Argentina;82;Santa Fe;119;San Lorenzo;14;ha;;2017
+32;Argentina;82;Santa Fe;133;Vera;56;ha;;2017
+32;Argentina;86;Santiago del Estero;14;Alberdi;21;ha;;2017
+32;Argentina;86;Santiago del Estero;56;Copo;10;ha;;2017
+32;Argentina;90;Tucumán;14;Cruz Alta;;ha;1;2014
+32;Argentina;90;Tucumán;63;Lules;1;ha;1;2014
+32;Argentina;90;Tucumán;98;Tafí del Valle;1;ha;1;2014
+32;Argentina;90;Tucumán;112;Trancas;;ha;1;2014

@@ -10,7 +10,9 @@ namespace P3Ejer01c
     {
         static void Main(string[] args)
         {
-            ListaC lc = new ListaC(10);            
+            ListaC lc = new ListaC(10);
+            lc.mostrar_p();
+            Console.ReadLine();
 
             int op, dato = 0, pos;
 
@@ -24,19 +26,20 @@ namespace P3Ejer01c
                         dato = int.Parse(Console.ReadLine());
                         Console.Write("Ingrese posicion < 1 y cant +1>  : ");
                         pos = int.Parse(Console.ReadLine());
-                        if (lc.insertar_c(dato, pos))
+                        if (lc.insertar_c(dato,pos))
                             Console.WriteLine("se inserto correcto");
                         else
                             Console.WriteLine("No se pudo insertar");
                         Console.ReadLine();
                         break;
                     case 'b':
-                        Console.Write("Ingrese posicion para eliminarn< 1 y cant>  : ");
+                        Console.Write("Ingrese posicion para suprimir < 1 y cant +1>  : ");
                         pos = int.Parse(Console.ReadLine());
-                        if (lc.suprimir_lc(ref dato, pos))
-                            Console.WriteLine("El elemento {0} fue eliminado", dato);
+                        if (lc.suprimir_c(ref dato, pos))
+                            Console.WriteLine("se suprimio correcto el elemento {0} de la posicion {1}",dato,pos);
                         else
-                            Console.WriteLine("ERROR ");
+                            Console.WriteLine("No se pudo suprimir");
+
                         Console.ReadLine();
                         break;
                     case 'c':

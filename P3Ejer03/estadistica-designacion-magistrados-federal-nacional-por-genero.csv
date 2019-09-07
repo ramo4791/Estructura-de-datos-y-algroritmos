@@ -1,0 +1,292 @@
+﻿"designacion_anio","cargo_tipo","instancia_tipo","materia","cantidad_varones","cantidad_mujeres"
+2000,"Defensor","Tribunal","Penal",1,0
+2000,"Fiscal","Juzgado","Penal",1,0
+2000,"Fiscal","Tribunal","Penal",1,0
+2001,"Defensor","Sin datos",,0,1
+2001,"Defensor","Juzgado","Múltiple",0,2
+2001,"Defensor","Juzgado","Penal",0,2
+2001,"Fiscal","Juzgado","Múltiple",0,1
+2001,"Fiscal","Cámara","Penal",3,0
+2001,"Fiscal","Tribunal","Penal",1,0
+2001,"Juez","Juzgado","Civil y/o comercial",4,5
+2001,"Juez","Cámara","Electoral",2,0
+2001,"Juez","Juzgado","Laboral",2,0
+2001,"Juez","Cámara","Múltiple",4,2
+2001,"Juez","Juzgado","Múltiple",5,1
+2001,"Juez","Cámara","Penal",1,0
+2001,"Juez","Juzgado","Penal",1,0
+2001,"Juez","Tribunal","Penal",4,1
+2001,"Juez","Cámara","Seguridad social",1,0
+2002,"Defensor","Cámara","Penal",1,0
+2002,"Defensor","Juzgado","Penal",2,0
+2002,"Defensor","Tribunal","Penal",0,2
+2002,"Defensor","Cámara","Penal económico",1,0
+2002,"Fiscal","Juzgado","Múltiple",1,0
+2002,"Fiscal","Juzgado","Penal",3,0
+2002,"Fiscal","Tribunal","Penal",1,0
+2002,"Juez","Cámara","Civil y/o comercial",3,1
+2002,"Juez","Juzgado","Civil y/o comercial",3,2
+2002,"Juez","Juzgado","Contencioso administrativo",2,1
+2002,"Juez","Cámara","Laboral",2,1
+2002,"Juez","Juzgado","Laboral",2,1
+2002,"Juez","Cámara","Múltiple",3,2
+2002,"Juez","Juzgado","Múltiple",8,0
+2002,"Juez","Juzgado","Penal",3,3
+2002,"Juez","Tribunal","Penal",5,1
+2002,"Juez","Juzgado","Penal económico",2,1
+2003,"Defensor","Juzgado","Penal",0,1
+2003,"Defensor","Tribunal","Penal",1,0
+2003,"Fiscal","Cámara","Múltiple",1,0
+2003,"Fiscal","Tribunal","Penal",1,0
+2003,"Juez","Sin datos",,1,0
+2003,"Juez","Cámara","Laboral",0,1
+2003,"Juez","Cámara","Múltiple",0,1
+2003,"Juez","Cámara","Penal",1,1
+2003,"Juez","Tribunal","Penal",4,1
+2003,"Juez","Cámara","Penal económico",1,0
+2004,"Defensor","Juzgado","Múltiple",0,1
+2004,"Defensor","Juzgado","Penal",1,0
+2004,"Defensor","Tribunal","Penal",1,0
+2004,"Fiscal","Cámara","Civil y/o comercial",0,1
+2004,"Fiscal","Tribunal","Múltiple",1,0
+2004,"Fiscal","Juzgado","Penal",6,0
+2004,"Fiscal","Tribunal","Penal",0,1
+2004,"Juez","Sin datos",,1,1
+2004,"Juez","Cámara","Civil y/o comercial",4,2
+2004,"Juez","Juzgado","Civil y/o comercial",1,1
+2004,"Juez","Juzgado","Contencioso administrativo",3,0
+2004,"Juez","Juzgado","Laboral",0,1
+2004,"Juez","Cámara","Múltiple",3,0
+2004,"Juez","Juzgado","Múltiple",3,2
+2004,"Juez","Cámara","Penal",4,1
+2004,"Juez","Juzgado","Penal",5,0
+2004,"Juez","Tribunal","Penal",8,1
+2004,"Juez","Juzgado","Seguridad social",0,2
+2005,"Defensor","Cámara","Penal",1,2
+2005,"Defensor","Tribunal","Penal",2,0
+2005,"Fiscal","Juzgado","Penal",2,0
+2005,"Juez","Sin datos",,0,1
+2005,"Juez","Cámara","Civil y/o comercial",4,2
+2005,"Juez","Juzgado","Civil y/o comercial",11,11
+2005,"Juez","Cámara","Laboral",3,0
+2005,"Juez","Juzgado","Laboral",1,4
+2005,"Juez","Cámara","Múltiple",0,1
+2005,"Juez","Juzgado","Múltiple",3,2
+2005,"Juez","Juzgado","Penal",13,2
+2005,"Juez","Tribunal","Penal",12,2
+2006,"Defensor","Cámara","Penal",1,1
+2006,"Defensor","Juzgado","Penal",0,3
+2006,"Defensor","Tribunal","Penal",1,0
+2006,"Fiscal","Sin datos",,0,1
+2006,"Fiscal","Juzgado","Civil y/o comercial",2,0
+2006,"Fiscal","Tribunal","Múltiple",1,0
+2006,"Fiscal","Cámara","Penal",1,0
+2006,"Fiscal","Juzgado","Penal",6,5
+2006,"Fiscal","Tribunal","Penal",1,0
+2006,"Fiscal","Tribunal","Penal económico",2,0
+2006,"Juez","Cámara","Civil y/o comercial",10,6
+2006,"Juez","Juzgado","Civil y/o comercial",4,1
+2006,"Juez","Cámara","Contencioso administrativo",1,0
+2006,"Juez","Juzgado","Contencioso administrativo",0,1
+2006,"Juez","Cámara","Laboral",4,0
+2006,"Juez","Cámara","Múltiple",1,1
+2006,"Juez","Juzgado","Múltiple",1,1
+2006,"Juez","Juzgado","Penal",7,2
+2006,"Juez","Tribunal","Penal",2,0
+2006,"Juez","Cámara","Seguridad social",0,1
+2007,"Defensor","Cámara","Múltiple",0,1
+2007,"Defensor","Cámara","Penal",1,0
+2007,"Defensor","Juzgado","Penal",5,3
+2007,"Defensor","Tribunal","Penal",0,2
+2007,"Fiscal","Sin datos",,0,2
+2007,"Fiscal","Juzgado","Penal",1,0
+2007,"Fiscal","Tribunal","Penal",1,0
+2007,"Juez","Juzgado","Civil y/o comercial",0,2
+2007,"Juez","Cámara","Contencioso administrativo",1,0
+2007,"Juez","Juzgado","Contencioso administrativo",1,0
+2007,"Juez","Cámara","Laboral",0,1
+2007,"Juez","Cámara","Múltiple",3,1
+2007,"Juez","Juzgado","Múltiple",1,0
+2007,"Juez","Tribunal","Penal",2,1
+2008,"Defensor","Sin datos",,1,0
+2008,"Defensor","Juzgado","Múltiple",1,1
+2008,"Defensor","Cámara","Penal",3,2
+2008,"Defensor","Juzgado","Penal",7,4
+2008,"Defensor","Tribunal","Penal",2,3
+2008,"Fiscal","Cámara","Laboral",0,1
+2008,"Fiscal","Juzgado","Laboral",1,1
+2008,"Fiscal","Cámara","Múltiple",0,1
+2008,"Fiscal","Tribunal","Múltiple",2,0
+2008,"Fiscal","Cámara","Penal",1,0
+2008,"Fiscal","Juzgado","Penal",9,2
+2008,"Fiscal","Tribunal","Penal",1,0
+2008,"Juez","Cámara","Civil y/o comercial",2,0
+2008,"Juez","Juzgado","Civil y/o comercial",17,11
+2008,"Juez","Juzgado","Laboral",6,11
+2008,"Juez","Cámara","Múltiple",4,0
+2008,"Juez","Juzgado","Múltiple",7,1
+2008,"Juez","Cámara","Penal",6,1
+2008,"Juez","Juzgado","Penal",5,1
+2008,"Juez","Tribunal","Penal",14,3
+2008,"Juez","Juzgado","Penal económico",4,0
+2008,"Juez","Juzgado","Seguridad social",0,1
+2009,"Defensor","Cámara","Múltiple",1,0
+2009,"Defensor","Cámara","Penal",2,2
+2009,"Defensor","Juzgado","Penal",3,2
+2009,"Defensor","Tribunal","Penal",3,1
+2009,"Defensor","Cámara","Penal económico",1,0
+2009,"Fiscal","Juzgado","Penal",2,0
+2009,"Fiscal","Tribunal","Penal",0,1
+2009,"Juez","Cámara","Civil y/o comercial",5,7
+2009,"Juez","Juzgado","Civil y/o comercial",6,8
+2009,"Juez","Cámara","Contencioso administrativo",3,1
+2009,"Juez","Juzgado","Contencioso administrativo",2,0
+2009,"Juez","Cámara","Múltiple",2,0
+2009,"Juez","Juzgado","Múltiple",4,0
+2009,"Juez","Tribunal","Penal",6,0
+2009,"Juez","Juzgado","Penal económico",1,0
+2009,"Juez","Cámara","Seguridad social",0,1
+2010,"Defensor","Juzgado","Penal",1,1
+2010,"Fiscal","Juzgado","Penal",1,0
+2010,"Juez","Cámara","Contencioso administrativo",1,0
+2010,"Juez","Cámara","Múltiple",0,2
+2010,"Juez","Tribunal","Penal",1,0
+2010,"Juez","Tribunal","Penal económico",1,1
+2011,"Defensor","Juzgado","Penal",1,0
+2011,"Defensor","Tribunal","Penal",1,0
+2011,"Fiscal","Cámara","Penal",1,0
+2011,"Fiscal","Juzgado","Penal",3,0
+2011,"Fiscal","Tribunal","Penal",1,0
+2011,"Juez","Cámara","Civil y/o comercial",2,1
+2011,"Juez","Juzgado","Civil y/o comercial",10,7
+2011,"Juez","Cámara","Contencioso administrativo",3,1
+2011,"Juez","Cámara","Laboral",5,6
+2011,"Juez","Cámara","Múltiple",3,1
+2011,"Juez","Juzgado","Múltiple",11,2
+2011,"Juez","Cámara","Penal",4,1
+2011,"Juez","Juzgado","Penal",10,4
+2011,"Juez","Tribunal","Penal",25,9
+2011,"Juez","Juzgado","Penal económico",1,0
+2011,"Juez","Tribunal","Penal económico",1,0
+2012,"Defensor","Cámara","Penal",2,1
+2012,"Defensor","Juzgado","Penal",3,1
+2012,"Fiscal","Tribunal","Múltiple",0,1
+2012,"Fiscal","Cámara","Penal",1,0
+2012,"Fiscal","Juzgado","Penal",2,0
+2012,"Fiscal","Tribunal","Penal",2,2
+2012,"Juez","Juzgado","Civil y/o comercial",1,0
+2012,"Juez","Juzgado","Laboral",4,7
+2012,"Juez","Cámara","Múltiple",4,1
+2012,"Juez","Juzgado","Múltiple",6,1
+2012,"Juez","Cámara","Penal",1,0
+2012,"Juez","Juzgado","Penal",4,0
+2012,"Juez","Tribunal","Penal",4,0
+2013,"Defensor","Cámara","Múltiple",1,0
+2013,"Defensor","Juzgado","Múltiple",1,1
+2013,"Defensor","Juzgado","Penal",4,2
+2013,"Defensor","Tribunal","Penal",3,5
+2013,"Fiscal","Cámara","Penal",1,0
+2013,"Fiscal","Juzgado","Penal",6,2
+2013,"Fiscal","Tribunal","Penal",10,5
+2013,"Fiscal","Juzgado","Seguridad social",1,0
+2013,"Juez","Cámara","Penal",9,1
+2013,"Juez","Tribunal","Penal",1,0
+2014,"Defensor","Cámara","Múltiple",1,0
+2014,"Defensor","Cámara","Penal",3,3
+2014,"Defensor","Juzgado","Penal",3,3
+2014,"Defensor","Tribunal","Penal",10,3
+2014,"Fiscal","Cámara","Civil y/o comercial",1,1
+2014,"Fiscal","Juzgado","Civil y/o comercial",0,1
+2014,"Fiscal","Juzgado","Laboral",2,0
+2014,"Fiscal","Cámara","Múltiple",1,0
+2014,"Fiscal","Juzgado","Múltiple",1,0
+2014,"Fiscal","Juzgado","Penal",12,5
+2014,"Fiscal","Tribunal","Penal",12,0
+2014,"Juez","Juzgado","Civil y/o comercial",10,4
+2014,"Juez","Juzgado","Laboral",1,1
+2014,"Juez","Cámara","Múltiple",4,2
+2014,"Juez","Juzgado","Múltiple",1,2
+2014,"Juez","Juzgado","Penal",1,2
+2014,"Juez","Tribunal","Penal",4,1
+2014,"Juez","Juzgado","Penal económico",2,0
+2014,"Juez","Juzgado","Seguridad social",2,1
+2015,"Defensor","Cámara","Múltiple",1,0
+2015,"Defensor","Juzgado","Múltiple",1,1
+2015,"Defensor","Juzgado","Penal",10,4
+2015,"Defensor","Tribunal","Penal",5,3
+2015,"Fiscal","Sin datos",,1,0
+2015,"Fiscal","Cámara","Civil y/o comercial",1,0
+2015,"Fiscal","Juzgado","Múltiple",1,0
+2015,"Fiscal","Juzgado","Penal",12,12
+2015,"Fiscal","Tribunal","Penal",4,0
+2015,"Fiscal","Cámara","Penal económico",1,1
+2015,"Fiscal","Tribunal","Penal económico",1,0
+2015,"Juez","Cámara","Civil y/o comercial",4,3
+2015,"Juez","Juzgado","Contencioso administrativo",0,1
+2015,"Juez","Juzgado","Laboral",1,0
+2015,"Juez","Cámara","Múltiple",4,1
+2015,"Juez","Juzgado","Múltiple",4,0
+2015,"Juez","Juzgado","Penal",2,0
+2015,"Juez","Tribunal","Penal",9,4
+2016,"Defensor","Juzgado","Contencioso administrativo",1,0
+2016,"Defensor","Cámara","Penal",3,0
+2016,"Defensor","Juzgado","Penal",2,0
+2016,"Defensor","Tribunal","Penal",1,0
+2016,"Fiscal","Cámara","Múltiple",1,1
+2016,"Fiscal","Tribunal","Múltiple",1,2
+2016,"Fiscal","Juzgado","Penal",1,0
+2016,"Fiscal","Tribunal","Penal",1,2
+2016,"Fiscal","Cámara","Seguridad social",1,0
+2016,"Juez","Sin datos",,2,0
+2016,"Juez","Juzgado","Contencioso administrativo",0,1
+2016,"Juez","Juzgado","Laboral",0,1
+2016,"Juez","Cámara","Múltiple",2,1
+2016,"Juez","Juzgado","Múltiple",8,1
+2016,"Juez","Juzgado","Penal",2,0
+2016,"Juez","Tribunal","Penal",4,1
+2016,"Juez","Cámara","Penal económico",0,1
+2017,"Defensor","Cámara","Penal",2,0
+2017,"Defensor","Juzgado","Penal",10,5
+2017,"Fiscal","Tribunal","Múltiple",3,0
+2017,"Fiscal","Juzgado","Penal",1,0
+2017,"Fiscal","Tribunal","Penal",5,0
+2017,"Juez","Cámara","Civil y/o comercial",2,0
+2017,"Juez","Juzgado","Civil y/o comercial",4,1
+2017,"Juez","Cámara","Laboral",2,1
+2017,"Juez","Juzgado","Laboral",1,8
+2017,"Juez","Cámara","Múltiple",5,2
+2017,"Juez","Juzgado","Múltiple",4,0
+2017,"Juez","Juzgado","Penal",7,5
+2017,"Juez","Tribunal","Penal",7,1
+2018,"Defensor","Cámara","Penal",3,0
+2018,"Defensor","Juzgado","Penal",0,2
+2018,"Defensor","Tribunal","Penal",4,2
+2018,"Fiscal","Sin datos",,1,0
+2018,"Fiscal","Cámara","Múltiple",1,0
+2018,"Fiscal","Tribunal","Múltiple",2,0
+2018,"Fiscal","Cámara","Penal",1,0
+2018,"Fiscal","Juzgado","Penal",5,1
+2018,"Juez","Sin datos",,6,1
+2018,"Juez","Cámara","Civil y/o comercial",6,2
+2018,"Juez","Juzgado","Civil y/o comercial",10,18
+2018,"Juez","Cámara","Contencioso administrativo",1,1
+2018,"Juez","Cámara","Laboral",1,3
+2018,"Juez","Juzgado","Laboral",2,3
+2018,"Juez","Cámara","Múltiple",3,2
+2018,"Juez","Juzgado","Múltiple",3,0
+2018,"Juez","Cámara","Penal",2,0
+2018,"Juez","Juzgado","Penal",6,7
+2018,"Juez","Tribunal","Penal",5,2
+2018,"Juez","Tribunal","Penal económico",3,0
+2018,"Juez","Juzgado","Seguridad social",1,0
+2019,"Defensor","Cámara","Penal",1,0
+2019,"Defensor","Tribunal","Penal",1,1
+2019,"Juez","Cámara","Civil y/o comercial",2,1
+2019,"Juez","Juzgado","Civil y/o comercial",3,1
+2019,"Juez","Juzgado","Contencioso administrativo",1,0
+2019,"Juez","Cámara","Laboral",2,1
+2019,"Juez","Juzgado","Laboral",2,5
+2019,"Juez","Juzgado","Múltiple",4,2
+2019,"Juez","Juzgado","Penal",1,1
+2019,"Juez","Tribunal","Penal",6,4
+2019,"Juez","Juzgado","Seguridad social",0,1
