@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace P3Ejer03
+namespace ListaE
 {
     class listap_enlazada
     {
@@ -55,16 +55,22 @@ namespace P3Ejer03
             else
                 return false;
         }
-        public void insertar_o(int x)
+        public void insertar_o(int xa, string xc, string xi, string xm, int cv,int cm)
         {
             nodo aux, ant, xcab;
 
             aux = new nodo();
-            aux.set_dato(x);
+            aux.Año=xa;
+            aux.Cargo = xc;
+            aux.Instancia = xi;
+            aux.Materia = xm;
+            aux.Cant_v = cv;
+            aux.Cant_m = cm;
          
-            if ((cant == 0) || (x <= cab.get_dato()))//primer caso lista vacia o el el primero
+            if ((cant == 0) || (xa <= cab.))//primer caso lista vacia o el el primero
             {
-                aux.set_sig(cab);
+                //aux.set_sig(cab);
+                aux.Siguiente = cab;
                 cab = aux;
                 cant++;
             }

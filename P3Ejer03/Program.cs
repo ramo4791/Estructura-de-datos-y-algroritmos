@@ -11,119 +11,44 @@ namespace P3Ejer03
     {
         static void Main(string[] args)
         {
+            lista l = new lista(24);
+            datos d = new datos();
             string linea;
-            string[] datos = new string[10]; //como son 6 atributos a separar 
-
+            string[] datos = new string[10]; //como son 10 atributos a separar 
+            string nom1, nom2;//lee nombres de provincia para comparar cuando cambian
+            float super,total=0;//leer superfice y acumularla 
             StreamReader file = new StreamReader(@"C:\Users\omar\source\repos\EstructuraDatos\P3Ejer03\superficie-afectada-por-incendios-forestales-en-el-pais.csv");
             linea = file.ReadLine();
+            linea = file.ReadLine();
+            datos = linea.Split(';'); //Split, recibe el carácter separador
+            nom1 = datos[3];
+            super = float.Parse(datos[6]);
+            total = total + super;
             while ((linea = file.ReadLine()) != null)
             {
                 datos = linea.Split(';'); //Split, recibe el carácter separador
-
-            }
-            file.Close();
-            //Designación d = new Designacióno(data[0], Single.Parse(data[1]), Single.Parse(data[2]));
-            int op, dato = 0, pos;
-            listap_enlazada lp = new listap_enlazada();
-
-            do
-            {
-                op = M.menu();
-                switch (op)
+                nom2 = datos[3];
+                if (nom1==nom2)
                 {
-                    case 'a':
-                        Console.Write("Ingrese numero a la lista  : ");
-                        dato = int.Parse(Console.ReadLine());
-                        Console.Write("Ingrese posicion < 1 y cant +1>  : ");
-                        pos = int.Parse(Console.ReadLine());
-                        if (lp.insertar_p(dato, pos))
-                            Console.WriteLine("se inserto correcto");
-                        else
-                            Console.WriteLine("No se pudo insertar");
-                        Console.ReadLine();
-                        break;
-                    case 'b':
-                        Console.Write("Ingrese posicion para eliminarn< 1 y cant>  : ");
-                        pos = int.Parse(Console.ReadLine());
-                        if (lp.suprimir(ref dato, pos))
-                            Console.WriteLine("El elemento {0} fue eliminado", dato);
-                        else
-                            Console.WriteLine("ERROR ");
-                        Console.ReadLine();
-                        break;
-                    case 'c':
-                        lp.mostrar_l();
-                        Console.ReadLine();
-                        break;
-                    case 'd':
-                        Console.WriteLine("\n Ingrese elemento para buscar su posicion ");
-                        dato = int.Parse(Console.ReadLine());
-                        pos = lp.buscar(dato);
-                        if (pos == -1)
-                            Console.WriteLine("No se encontro");
-                        else
-                            Console.WriteLine("El dato {0} se encuentra en la posicion {1}", dato, pos);
-                        Console.ReadLine();
-                        break;
-                    case 'e':
-                        Console.Write("Ingrese posicion para recuperar entre < 1 y cant>  : ");
-                        pos = int.Parse(Console.ReadLine());
-                        if (lp.recuperar(ref dato, pos))
-                            Console.WriteLine("El elemento recuperado de la pos {0 } es  {1}", pos, dato);
-                        else
-                            Console.WriteLine("ERROR ");
-                        Console.ReadLine();
-                        break;
-                    case 'f':
-                        if (lp.primero(ref dato))
-                            Console.WriteLine("El primer elemento es : " + dato);
-                        else
-                            Console.WriteLine("ERROR");
-                        Console.ReadLine();
-                        break;
-                    case 'g':
-                        if (lp.ultimo(ref dato))
-                            Console.WriteLine("El ultimo elemento es : " + dato);
-                        else
-                            Console.WriteLine("ERROR");
-                        Console.ReadLine();
-                        break;
-                    case 'h':
-                        Console.Write("Ingrese posicion para buscar siguiente : ");
-                        pos = int.Parse(Console.ReadLine());
-                        if (lp.siguiente(pos, ref dato))
-                            Console.WriteLine("La posicion siguiente es : " + dato);
-                        else
-                            Console.WriteLine("ERROR");
-                        Console.ReadLine();
-                        break;
-                    case 'i':
-                        Console.Write("Ingrese posicion para buscar anterior : ");
-                        pos = int.Parse(Console.ReadLine());
-                        if (lp.anterior(pos, ref dato))
-                            Console.WriteLine("La posicion anterior es : " + dato);
-                        else
-                            Console.WriteLine("ERROR");
-                        Console.ReadLine();
-                        break;
-                    case 'j':
-                        Console.Write("Ingrese numero a la lista  : ");
-                        dato = int.Parse(Console.ReadLine());
-                        lp.insertar_o(dato);
-                        Console.WriteLine("se inserto correcto");
-                        Console.ReadLine();
-                        break;
-                    case 'k':
-                        break;
-
-                    default:
-                        Console.WriteLine("Opcion incorrecta ..intente otra vez ");
-                        Console.ReadLine();
-                        Console.Clear();
-                        break;
+                    super = float.Parse(datos[6]);
+                    total = total + super;
                 }
+                else
+                {
+                    d.nombre = nom1;
+                    d.sup = total;
+                    l.insertar_o(d);
+                    nom1 = nom2;
+                    total = float.Parse(datos[6]);
+                }               
             }
-            while (op != 'k');
+            d.nombre = nom1;
+            d.sup = total;
+            l.insertar_o(d);
+
+            file.Close();
+            l.mostrar_lista();
+           
             Console.ReadLine();
         }
     }

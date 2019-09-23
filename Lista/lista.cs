@@ -86,7 +86,8 @@ namespace Lista
                             u = m - 1;
                         else
                             p = m + 1;
-                    }                  
+                    }  
+                    
                     for (int i = ult + 1; i > p; i--)
                     {
                         elem[i] = elem[i - 1];

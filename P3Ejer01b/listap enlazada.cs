@@ -71,7 +71,7 @@ namespace ListaE
             else
             {
                 xcab = cab;
-                ant = cab;//obliga a inicializar anterior
+                ant = cab;//obliga a inicializar anterior el  compilador
 
                 while ((xcab!=null) && (x > xcab.get_dato()))
                 {

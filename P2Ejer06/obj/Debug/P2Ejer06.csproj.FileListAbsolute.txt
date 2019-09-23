@@ -4,4 +4,3 @@ C:\Users\omar\source\repos\EstructuraDatos\P2Ejer06\bin\Debug\P2Ejer06.pdb
 C:\Users\omar\source\repos\EstructuraDatos\P2Ejer06\obj\Debug\P2Ejer06.csproj.CoreCompileInputs.cache
 C:\Users\omar\source\repos\EstructuraDatos\P2Ejer06\obj\Debug\P2Ejer06.exe
 C:\Users\omar\source\repos\EstructuraDatos\P2Ejer06\obj\Debug\P2Ejer06.pdb
-C:\Users\omar\source\repos\EstructuraDatos\P2Ejer06\obj\Debug\P2Ejer06.csprojAssemblyReference.cache

@@ -1,4 +1,3 @@
-C:\Users\omar\source\repos\EstructuraDatos\P3Ejer01b\obj\Debug\P3Ejer01b.csprojAssemblyReference.cache
 C:\Users\omar\source\repos\EstructuraDatos\P3Ejer01b\obj\Debug\P3Ejer01b.csproj.CoreCompileInputs.cache
 C:\Users\omar\source\repos\EstructuraDatos\P3Ejer01b\bin\Debug\P3Ejer01b.exe.config
 C:\Users\omar\source\repos\EstructuraDatos\P3Ejer01b\bin\Debug\P3Ejer01b.exe

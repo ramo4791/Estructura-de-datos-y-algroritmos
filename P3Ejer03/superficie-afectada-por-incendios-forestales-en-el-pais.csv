@@ -193,7 +193,7 @@ pais_id;pais;provincia_id;provincia;departamento_id;departamento;sup_afectada;un
 32;Argentina;82;Santa Fe;133;Vera;56;ha;;2017
 32;Argentina;86;Santiago del Estero;14;Alberdi;21;ha;;2017
 32;Argentina;86;Santiago del Estero;56;Copo;10;ha;;2017
-32;Argentina;90;Tucumán;14;Cruz Alta;;ha;1;2014
+32;Argentina;90;Tucumán;14;Cruz Alta;0;ha;1;2014
 32;Argentina;90;Tucumán;63;Lules;1;ha;1;2014
 32;Argentina;90;Tucumán;98;Tafí del Valle;1;ha;1;2014
-32;Argentina;90;Tucumán;112;Trancas;;ha;1;2014
+32;Argentina;90;Tucumán;112;Trancas;0;ha;1;2014

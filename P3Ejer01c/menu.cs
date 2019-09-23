@@ -16,12 +16,12 @@ namespace P3Ejer01c
             Console.WriteLine("a: Insertar Lista Cursor");
             Console.WriteLine("b: Suprimir Lista Cusor");
             Console.WriteLine("c: Mostrar Lista Cursor");
-            Console.WriteLine("d: Buscar en Lista");
-            Console.WriteLine("e: Recuperar");
-            Console.WriteLine("f: Primer Elemento");
-            Console.WriteLine("g: Ultimo Elemento");
-            Console.WriteLine("h: Siguiente");
-            Console.WriteLine("i: Anterior");
+            //Console.WriteLine("d: Buscar en Lista");
+            //Console.WriteLine("e: Recuperar");
+            //Console.WriteLine("f: Primer Elemento");
+            //Console.WriteLine("g: Ultimo Elemento");
+            //Console.WriteLine("h: Siguiente");
+            //Console.WriteLine("i: Anterior");
             Console.WriteLine("j: Salir");
             Console.Write("\n\nOPCION : ");
             a = Console.ReadLine();

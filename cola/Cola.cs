@@ -35,8 +35,9 @@ namespace cola
         {
             if (cant < max)
             {
+                elem[ult] = x;
+
                 ult = (ult+1) % max;//tocar solo el ultimo
-                elem[ult] = x;               
                 cant++;
             }
             else Console.WriteLine("Cola llena , no se pudo insertar {0}",x);
@@ -69,6 +70,7 @@ namespace cola
                 Console.WriteLine("{0}", elem[xprim]);
                 xprim = (xprim + 1) % max;
             }
+
         }
     }
 }

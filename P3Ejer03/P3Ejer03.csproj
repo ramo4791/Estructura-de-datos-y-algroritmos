@@ -43,9 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="listap enlazada.cs" />
-    <Compile Include="menu.cs" />
-    <Compile Include="nodo.cs" />
+    <Compile Include="datos.cs" />
+    <Compile Include="lista.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
